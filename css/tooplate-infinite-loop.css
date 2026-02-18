@@ -397,6 +397,12 @@ blockquote {
   background-image: url(../img/niko\ home\ control\ transparent.png);
 }
 
+.fibaroLogo {
+  /* width: 100%;
+  height: 100%; */
+  background-image: url(../img/fibaro-640x295.png);
+}
+
 .matterLogo {
   grid-column-end: span 2;
   background-image: url(../img/Matter_logo.jpg);
