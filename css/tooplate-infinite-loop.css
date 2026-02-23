@@ -708,7 +708,7 @@ p {
     padding-left: 0px;
   }
 
-  .navbar-expand-md .navbar-nav .nav-link {
+  .navbar .navbar-nav .nav-link {
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -749,7 +749,7 @@ p {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 
   .navbar-nav {
     max-width: 200px;
