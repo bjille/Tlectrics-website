@@ -146,8 +146,8 @@ blockquote {
 /* Hero */
 
 #infinite {
-  background-color: #222;
-  background-image: url(../img/premium_photo-1728776080545-0f160cfd35c9.avif);
+  background-color: #0a2943;
+  background-image: url(../img/folder.png);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -162,25 +162,25 @@ blockquote {
 
 @media (min-height: 830px) {
   #infinite {
-    background-position: center -210px;
+    background-position: center -10px;
   }
 }
 
 @media (min-height: 680px) and (max-height: 829px) {
   #infinite {
-    background-position: center -300px;
+    background-position: center -100px;
   }
 }
 
 @media (min-height: 500px) and (max-height: 679px) {
   #infinite {
-    background-position: center -400px;
+    background-position: center -200px;
   }
 }
 
 @media (max-height: 499px) {
   #infinite {
-    background-position: center -450px;
+    background-position: center -250px;
   }
 }
 
@@ -356,6 +356,10 @@ blockquote {
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr; */
   /* grid-template-rows: 1fr 1fr */
+}
+
+.reverse {
+  flex-direction: row-reverse;
 }
 
 .domoticaLogo {

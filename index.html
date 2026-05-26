@@ -116,19 +116,18 @@ https://www.tooplate.com/view/2117-infinite-loop
     </nav>
 
     <div class="text-center tm-hero-text-container">
-      <div class="tm-hero-text-container-inner">
+      <!-- <div class="tm-hero-text-container-inner">
         <div class="container">
           <div class="row">
-            <!-- <img class="col-sm" src="./img/favicon-transparent-white.png" alt="" width="80" height="80"> -->
             <h2 class="col-sm tm-hero-title">Tlectrics</h2>
 
           </div>
         </div>
 
         <p class="tm-hero-subtitle">
-          Live smart Live cheap
+          Live smart <br> Live easy <br> Live cheap
         </p>
-      </div>
+      </div> -->
     </div>
 
     <div class="tm-next tm-intro-next">
@@ -249,22 +248,10 @@ https://www.tooplate.com/view/2117-infinite-loop
 
       </div><!-- third row -->
 
-      <div id="domotica" class="row tm-section-pad-top""><!-- third row -->
+      <div id="domotica reverse" class="row tm-section-pad-top""><!-- third row -->
         <!-- <div class=" col-lg-1">
         <i class="fas fa-3x fa-mobile text-center tm-icon"></i>
       </div> -->
-      <div class="col-lg-5">
-        <div>
-          <div class="domoticaLogos">
-            <div class="domoticaLogo domoticaLogoLarge nikohomecontrolsLogo"></div>
-            <div class="domoticaLogo domoticaLogoLarge fibaroLogo"></div>
-            <div class="domoticaLogo domoticaLogoRectangle zigbeeLogo"></div>
-            <div class="domoticaLogo domoticaLogoRectangle zwaveLogo"></div>
-            <div class="domoticaLogo domoticaLogoLarge homeassistantLogo"></div>
-            <div class="domoticaLogo domoticaLogoRectangle matterLogo"></div>
-          </div>
-        </div>
-      </div>
       <div class="col-lg-7 ">
         <div class="">
           <h2 class="tm-text-primary mb-4 tm-section-title">Domotica en centrale bediening
@@ -291,6 +278,19 @@ https://www.tooplate.com/view/2117-infinite-loop
           </p>
         </div>
       </div>
+      <div class="col-lg-5 ">
+        <div>
+          <div class="domoticaLogos">
+            <div class="domoticaLogo domoticaLogoLarge nikohomecontrolsLogo"></div>
+            <div class="domoticaLogo domoticaLogoLarge fibaroLogo"></div>
+            <div class="domoticaLogo domoticaLogoRectangle zigbeeLogo"></div>
+            <div class="domoticaLogo domoticaLogoRectangle zwaveLogo"></div>
+            <div class="domoticaLogo domoticaLogoLarge homeassistantLogo"></div>
+            <div class="domoticaLogo domoticaLogoRectangle matterLogo"></div>
+          </div>
+        </div>
+      </div>
+
 
 
     </div><!-- third row -->
@@ -721,8 +721,10 @@ https://www.tooplate.com/view/2117-infinite-loop
 
     function setParallaxPosition($doc, multiplier, $object) {
       var offset = getOffSet();
-      var from_top = $doc.scrollTop(),
-        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+      var from_top = $doc.scrollTop()
+        ,
+        bg_css = 'right ' + (multiplier * from_top) + 'px';
+      //origineel bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
       $object.css({ "background-position": bg_css });
     }
 
