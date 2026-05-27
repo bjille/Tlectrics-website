@@ -162,25 +162,25 @@ blockquote {
 
 @media (min-height: 830px) {
   #infinite {
-    background-position: center -10px;
+    background-position: right top;
   }
 }
 
 @media (min-height: 680px) and (max-height: 829px) {
   #infinite {
-    background-position: center -100px;
+    background-position: right -100px;
   }
 }
 
 @media (min-height: 500px) and (max-height: 679px) {
   #infinite {
-    background-position: center -200px;
+    background-position: right -200px;
   }
 }
 
 @media (max-height: 499px) {
   #infinite {
-    background-position: center -250px;
+    background-position: right -250px;
   }
 }
 
