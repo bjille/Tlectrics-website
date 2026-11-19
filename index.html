@@ -608,7 +608,11 @@ https://www.tooplate.com/view/2117-infinite-loop
                 required value="test" /> -->
 
           <!-- live -->
-          <form id="contactform" action="https://forms.tconcepts.be/submit.php" method="POST">
+          <form id="contactform" action="https://formsubmit.co/tim.vanloocke@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Nieuw bericht via tlectrics.be" />
+            <input type="hidden" name="_next" value="https://tlectrics.be/?submitted=true#contact" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
             <input id="name" name="name" type="text" placeholder="Naam" class="tm-input" required />
             <input id="email" name="email" type="email" placeholder="Email" class="tm-input" required />
 
